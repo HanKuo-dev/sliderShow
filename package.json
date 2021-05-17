@@ -4,11 +4,16 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "postinstall": "husky install"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitlint": "^12.1.4",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "husky": "^4.3.8",
+    "vue": "^3.0.0",
+    "vueperslides": "^3.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
